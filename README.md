@@ -132,7 +132,7 @@ Fully private, no cloud required. Vault tools, MCP servers, RAG, encryption, and
 ### 📊 By the numbers
 
 <p align="center">
-  <img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftakeshy&query=%24.public_repos&label=public%20repos&color=3178C6&style=for-the-badge&logo=github&logoColor=white">
+  <img alt="Public repos" src="https://img.shields.io/badge/public_repos-65%2B-3178C6?style=for-the-badge&logo=github&logoColor=white">
   <img alt="Followers" src="https://img.shields.io/github/followers/takeshy?style=for-the-badge&logo=github&logoColor=white&label=followers&color=181717">
   <img alt="Stars" src="https://img.shields.io/badge/⭐_stars_earned-240%2B-E3B341?style=for-the-badge">
   <img alt="Since 2009" src="https://img.shields.io/badge/on_github_since-2009-57A143?style=for-the-badge">
