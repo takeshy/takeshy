@@ -54,12 +54,55 @@ Linked memos work across notes, PDFs and EPUBs — so you can plan projects, ann
 
 ---
 
+### 🔌 The Obsidian AI plugin family
+
+The other half of my time goes here. **One idea, three engines** — pick the one that matches how you want your AI to run, then plug the companion plugins into it.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### ✨ [Gemini Helper](https://github.com/takeshy/obsidian-gemini-helper)
+
+![](https://img.shields.io/github/stars/takeshy/obsidian-gemini-helper?style=flat-square&label=%E2%98%85&color=E3B341)
+
+Google Gemini, desktop **and** mobile. AI chat, workflow automation, RAG, and an LLM Wiki (OKF).
+
+</td>
+<td width="33%" valign="top">
+
+#### 🔀 [LLM Hub](https://github.com/takeshy/obsidian-llm-hub)
+
+![](https://img.shields.io/github/stars/takeshy/obsidian-llm-hub?style=flat-square&label=%E2%98%85&color=E3B341)
+
+Bring your own backend: Gemini, OpenAI, OpenRouter, Grok, Ollama, or a CLI — all behind one UI.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🔒 [Local LLM Hub](https://github.com/takeshy/obsidian-local-llm-hub)
+
+![](https://img.shields.io/github/stars/takeshy/obsidian-local-llm-hub?style=flat-square&label=%E2%98%85&color=E3B341)
+
+Fully private, no cloud required. Vault tools, MCP servers, RAG, encryption, and edit history.
+
+</td>
+</tr>
+</table>
+
+**Companion plugins connect to whichever engine you installed** — they supply no models of their own, they borrow yours:
+
+- 🗣️ **[Discussion Hub](https://github.com/takeshy/obsidian-discussion-hub)** — AI plugins register their models at runtime, so models from *different providers* can argue in the same structured discussion. Assign roles, run turns, let them conclude, then have a separate set of voters pick a winner.
+- 📊 **[Dashboard Hub](https://github.com/takeshy/obsidian-dashboard-hub)** — AI is optional, but connect an engine and it can answer questions about selected text or reading memos, generate and edit a Base, rewrite Timeline posts, and build and run Workflows. It shares its Base directory and Timeline name with the connected plugin, so date-based questions read one day's file instead of scanning everything.
+
+---
+
 <details>
 <summary>🧩 Beyond the pinned repos</summary>
 
 <br>
 
-**Obsidian / knowledge tools** — [obsidian-wysimark](https://github.com/takeshy/obsidian-wysimark) (WYSIWYG Markdown editing that keeps files pure Markdown), [obsidian-discussion-hub](https://github.com/takeshy/obsidian-discussion-hub) (multi-model discussion), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault), [obsidian-gemihub](https://github.com/takeshy/obsidian-gemihub)
+**Obsidian / knowledge tools** — [obsidian-wysimark](https://github.com/takeshy/obsidian-wysimark) (WYSIWYG Markdown editing that keeps files pure Markdown), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault), [obsidian-gemihub](https://github.com/takeshy/obsidian-gemihub)
 
 **GemiHub ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
 
