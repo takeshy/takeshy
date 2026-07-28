@@ -22,6 +22,39 @@
 
 ---
 
+### 🌟 What I'm building right now
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🖥️ [gemihub-desktop](https://github.com/takeshy/gemihub-desktop)
+
+![Main focus](https://img.shields.io/badge/⚡_main_focus-8E75B2?style=flat-square)
+
+A **local-first desktop workspace** that turns your notes, documents, and workflows into context for AI.
+
+Everything I've learned from the Obsidian plugins, rebuilt as a standalone app — your files stay yours, the AI comes to them. This is where most of my energy goes from here on.
+
+→ Extended by [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive), [hub-ronginus](https://github.com/takeshy/hub-ronginus), [hub-accounting](https://github.com/takeshy/hub-accounting), [hub-audio-score](https://github.com/takeshy/hub-audio-score)
+
+</td>
+<td width="50%" valign="top">
+
+#### 📊 [obsidian-dashboard-hub](https://github.com/takeshy/obsidian-dashboard-hub)
+
+![Personal favorite](https://img.shields.io/badge/❤️_personal_favorite-D64545?style=flat-square)
+
+One responsive workspace for **everything in your vault**: Obsidian Bases, Kanban boards, calendars, timelines, web pages, and password-protected secrets.
+
+Linked memos work across notes, PDFs and EPUBs — so you can plan projects, annotate documents and track events without ever leaving Obsidian.
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🚀 Featured projects
 
 | Project | Stars | What it is |
@@ -40,9 +73,9 @@
 
 <br>
 
-**Obsidian / knowledge tools** — [obsidian-dashboard-hub](https://github.com/takeshy/obsidian-dashboard-hub) (Bases, Kanban, calendars, PDF/EPUB memos), [obsidian-discussion-hub](https://github.com/takeshy/obsidian-discussion-hub) (multi-model discussion), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault)
+**Obsidian / knowledge tools** — [obsidian-discussion-hub](https://github.com/takeshy/obsidian-discussion-hub) (multi-model discussion), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault), [obsidian-gemihub](https://github.com/takeshy/obsidian-gemihub)
 
-**GemiHub ecosystem** — [gemihub-desktop](https://github.com/takeshy/gemihub-desktop), [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
+**GemiHub ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
 
 **Go & infra** — [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
 
