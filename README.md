@@ -8,7 +8,6 @@
 <p align="center">
   <a href="https://zenn.dev/takeshy"><img alt="Zenn" src="https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white"></a>
   <a href="https://x.com/takeshy"><img alt="X" src="https://img.shields.io/badge/@takeshy-000000?style=for-the-badge&logo=x&logoColor=white"></a>
-  <a href="https://github.com/takeshy?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/takeshy?style=for-the-badge&logo=github&label=Followers&color=181717"></a>
 </p>
 
 ---
@@ -55,31 +54,18 @@ Linked memos work across notes, PDFs and EPUBs — so you can plan projects, ann
 
 ---
 
-### 🚀 Featured projects
-
-| Project | Stars | What it is |
-| --- | --- | --- |
-| **[obsidian-gemini-helper](https://github.com/takeshy/obsidian-gemini-helper)** | ![](https://img.shields.io/github/stars/takeshy/obsidian-gemini-helper?style=flat&label=&color=444) | AI chat, workflow automation, semantic search (RAG) and an LLM Wiki for Obsidian, powered by Google Gemini. Desktop **and** mobile. |
-| **[obsidian-local-llm-hub](https://github.com/takeshy/obsidian-local-llm-hub)** | ![](https://img.shields.io/github/stars/takeshy/obsidian-local-llm-hub?style=flat&label=&color=444) | All-in-one **local** AI hub for Obsidian — vault tools, MCP servers, RAG, encryption, edit history. Fully private, no cloud required. |
-| **[obsidian-llm-hub](https://github.com/takeshy/obsidian-llm-hub)** | ![](https://img.shields.io/github/stars/takeshy/obsidian-llm-hub?style=flat&label=&color=444) | The multi-backend sibling: Gemini, OpenAI, OpenRouter, Grok, Ollama and CLI backends behind one UI. |
-| **[gemihub](https://github.com/takeshy/gemihub)** | ![](https://img.shields.io/github/stars/takeshy/gemihub?style=flat&label=&color=444) | Self-hostable AI secretary on Gemini + Google Drive — streaming chat, function calling, visual workflow builder. No database needed. |
-| **[obsidian-wysimark](https://github.com/takeshy/obsidian-wysimark)** | ![](https://img.shields.io/github/stars/takeshy/obsidian-wysimark?style=flat&label=&color=444) | A modern WYSIWYG Markdown editor for Obsidian that keeps the file pure Markdown. |
-| **[mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper)** | ![](https://img.shields.io/github/stars/takeshy/mcp-gatekeeper?style=flat&label=&color=444) | Secure MCP server in Go — sandbox modes, glob-based policy control, JSON plugin config, MCP Apps UI. |
-| **[ragujuary](https://github.com/takeshy/ragujuary)** | ![](https://img.shields.io/github/stars/takeshy/ragujuary?style=flat&label=&color=444) | A small RAG tool built on Gemini File Search. |
-| **[nvim-gemini-helper](https://github.com/takeshy/nvim-gemini-helper)** | ![](https://img.shields.io/github/stars/takeshy/nvim-gemini-helper?style=flat&label=&color=444) | Gemini in Neovim, with RAG support. |
-
 <details>
-<summary>🧩 More things I've built</summary>
+<summary>🧩 Beyond the pinned repos</summary>
 
 <br>
 
-**Obsidian / knowledge tools** — [obsidian-discussion-hub](https://github.com/takeshy/obsidian-discussion-hub) (multi-model discussion), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault), [obsidian-gemihub](https://github.com/takeshy/obsidian-gemihub)
+**Obsidian / knowledge tools** — [obsidian-wysimark](https://github.com/takeshy/obsidian-wysimark) (WYSIWYG Markdown editing that keeps files pure Markdown), [obsidian-discussion-hub](https://github.com/takeshy/obsidian-discussion-hub) (multi-model discussion), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault), [obsidian-gemihub](https://github.com/takeshy/obsidian-gemihub)
 
 **GemiHub ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
 
-**Go & infra** — [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
+**Go & infra** — [mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper) (sandboxed MCP server with policy control), [ragujuary](https://github.com/takeshy/ragujuary) (RAG on Gemini File Search), [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
 
-**Editor & web** — [http-file.nvim](https://github.com/takeshy/http-file.nvim), [wysimark-lite](https://github.com/takeshy/wysimark-lite), [mdwys](https://github.com/takeshy/mdwys), [chrome-skk-lite](https://github.com/takeshy/chrome-skk-lite), [socket.io-reqev](https://github.com/takeshy/socket.io-reqev), [svg_canvas_chart](https://github.com/takeshy/svg_canvas_chart)
+**Editor & web** — [nvim-gemini-helper](https://github.com/takeshy/nvim-gemini-helper) (Gemini + RAG in Neovim), [http-file.nvim](https://github.com/takeshy/http-file.nvim), [wysimark-lite](https://github.com/takeshy/wysimark-lite), [mdwys](https://github.com/takeshy/mdwys), [chrome-skk-lite](https://github.com/takeshy/chrome-skk-lite), [socket.io-reqev](https://github.com/takeshy/socket.io-reqev), [svg_canvas_chart](https://github.com/takeshy/svg_canvas_chart)
 
 </details>
 
@@ -100,21 +86,17 @@ Linked memos work across notes, PDFs and EPUBs — so you can plan projects, ann
 
 ---
 
-### 📊 GitHub
+### 📊 By the numbers
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=takeshy&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=takeshy&show_icons=true&hide_border=true&include_all_commits=true" alt="takeshy's GitHub stats">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=takeshy&layout=compact&hide_border=true&langs_count=8&theme=tokyonight">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takeshy&layout=compact&hide_border=true&langs_count=8" alt="Top languages">
-  </picture>
+  <img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftakeshy&query=%24.public_repos&label=public%20repos&color=3178C6&style=for-the-badge&logo=github&logoColor=white">
+  <img alt="Followers" src="https://img.shields.io/github/followers/takeshy?style=for-the-badge&logo=github&logoColor=white&label=followers&color=181717">
+  <img alt="Stars" src="https://img.shields.io/badge/⭐_stars_earned-240%2B-E3B341?style=for-the-badge">
+  <img alt="Since 2009" src="https://img.shields.io/badge/on_github_since-2009-57A143?style=for-the-badge">
 </p>
 
 ---
 
 <p align="center">
-  ✍️ I write about AI tooling and development on <a href="https://zenn.dev/takeshy"><b>Zenn</b></a> — issues and PRs are always welcome on any repo above.
+  ✍️ I write about AI tooling and development on <a href="https://zenn.dev/takeshy"><b>Zenn</b></a> — issues and PRs are always welcome on any of my repos.
 </p>
