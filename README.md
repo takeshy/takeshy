@@ -17,7 +17,7 @@
 - 🧠 **AI that stays on your machine** — LLM chat, RAG, and workflow automation that run against your own vault, your own files, your own keys.
 - 🔌 **Obsidian plugins** — a family of "Hub" plugins bringing chat, MCP servers, semantic search, dashboards, and WYSIWYG editing into the vault.
 - 🛠️ **Small, dependency-free Go tools** — MCP servers, log monitors, file watchers. Single binary, no runtime.
-- ⌨️ **Neovim & editor tooling** — because the editor is where the work happens.
+- ⌨️ **Japanese input & editor tooling** — lightweight SKK for the browser, desktop, and Neovim, because the keyboard is where the work happens.
 
 ---
 
@@ -97,6 +97,38 @@ Fully private, no cloud required. Vault tools, MCP servers, RAG, encryption, and
 
 ---
 
+### ⌨️ SKK, wherever I type
+
+I also build a family of lightweight **SKK Japanese input tools** around the same familiar key bindings and conversion workflow — no system-wide IME required.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🌐 [chrome-skk-lite](https://github.com/takeshy/chrome-skk-lite)
+
+SKK directly inside Chrome input fields, plus a clipboard input window for places extensions cannot reach. The same engine is also available as a GemiHub Desktop plugin.
+
+</td>
+<td width="33%" valign="top">
+
+#### 💬 [skk-popup](https://github.com/takeshy/skk-popup)
+
+A cross-platform popup for Linux, Windows, and macOS. Call it with a hotkey, compose with SKK, then paste the result into any app.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🌙 [skk-lite.nvim](https://github.com/takeshy/skk-lite.nvim)
+
+Pure Lua SKK for Neovim insert and command-line modes, with no Node.js or Denops runtime required while typing.
+
+</td>
+</tr>
+</table>
+
+---
+
 <details>
 <summary>🧩 Beyond the pinned repos</summary>
 
@@ -108,7 +140,7 @@ Fully private, no cloud required. Vault tools, MCP servers, RAG, encryption, and
 
 **Go & infra** — [mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper) (sandboxed MCP server with policy control), [ragujuary](https://github.com/takeshy/ragujuary) (RAG on Gemini File Search), [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
 
-**Editor & web** — [nvim-gemini-helper](https://github.com/takeshy/nvim-gemini-helper) (Gemini + RAG in Neovim), [http-file.nvim](https://github.com/takeshy/http-file.nvim), [wysimark-lite](https://github.com/takeshy/wysimark-lite), [mdwys](https://github.com/takeshy/mdwys), [chrome-skk-lite](https://github.com/takeshy/chrome-skk-lite), [socket.io-reqev](https://github.com/takeshy/socket.io-reqev), [svg_canvas_chart](https://github.com/takeshy/svg_canvas_chart)
+**Editor & web** — [nvim-gemini-helper](https://github.com/takeshy/nvim-gemini-helper) (Gemini + RAG in Neovim), [http-file.nvim](https://github.com/takeshy/http-file.nvim), [wysimark-lite](https://github.com/takeshy/wysimark-lite), [mdwys](https://github.com/takeshy/mdwys), [socket.io-reqev](https://github.com/takeshy/socket.io-reqev), [svg_canvas_chart](https://github.com/takeshy/svg_canvas_chart)
 
 </details>
 
