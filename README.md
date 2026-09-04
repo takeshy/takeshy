@@ -16,8 +16,8 @@
 
 - 🧠 **AI that stays on your machine** — LLM chat, RAG, and workflow automation that run against your own vault, your own files, your own keys.
 - 🔌 **Obsidian plugins** — a family of "Hub" plugins bringing chat, MCP servers, semantic search, dashboards, and WYSIWYG editing into the vault.
-- 🛠️ **Small, dependency-free Go tools** — MCP servers, log monitors, file watchers. Single binary, no runtime.
-- ⌨️ **Japanese input & editor tooling** — lightweight SKK for the browser, desktop, and Neovim, because the keyboard is where the work happens.
+- 🛠️ **Small, dependency-free Go tools** — MCP servers, log monitors, file watchers, a PDF splitter. Single binary, no runtime.
+- ⌨️ **Japanese input & editor tooling** — lightweight SKK for the browser, desktop, Omarchy, and Neovim, because the keyboard is where the work happens.
 
 ---
 
@@ -114,7 +114,7 @@ SKK directly inside Chrome input fields, plus a clipboard input window for place
 
 #### 💬 [skk-popup](https://github.com/takeshy/skk-popup)
 
-A cross-platform popup for Linux, Windows, and macOS. Call it with a hotkey, compose with SKK, then paste the result into any app.
+A cross-platform popup for Linux, Windows, and macOS. Call it with a hotkey, compose with SKK, then paste the result into any app. Rebuilt natively for Omarchy as [omarchy-skk-popup](https://github.com/takeshy/omarchy-skk-popup).
 
 </td>
 <td width="33%" valign="top">
@@ -127,6 +127,8 @@ Pure Lua SKK for Neovim insert and command-line modes, with no Node.js or Denops
 </tr>
 </table>
 
+- 🐧 **[omarchy-skk-popup](https://github.com/takeshy/omarchy-skk-popup)** — skk-popup reborn as an [Omarchy](https://omarchy.org) shell plugin. The panel is drawn in QML inside `omarchy-shell`, while the SKK engine runs as a small Go daemon speaking JSON lines over stdin/stdout. One Hyprland hotkey, an 「あ」 button on the bar, and the same dictionaries, user dictionary, and history files as skk-popup.
+
 ---
 
 <details>
@@ -138,7 +140,7 @@ Pure Lua SKK for Neovim insert and command-line modes, with no Node.js or Denops
 
 **GemiHub ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
 
-**Go & infra** — [mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper) (sandboxed MCP server with policy control), [ragujuary](https://github.com/takeshy/ragujuary) (RAG on Gemini File Search), [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
+**Go & infra** — [mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper) (sandboxed MCP server with policy control), [ragujuary](https://github.com/takeshy/ragujuary) (RAG on Gemini File Search), [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit) (stdlib-only PDF page splitter — xref streams, object streams, RC4/AES-encrypted PDFs), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
 
 **Editor & web** — [nvim-gemini-helper](https://github.com/takeshy/nvim-gemini-helper) (Gemini + RAG in Neovim), [http-file.nvim](https://github.com/takeshy/http-file.nvim), [wysimark-lite](https://github.com/takeshy/wysimark-lite), [mdwys](https://github.com/takeshy/mdwys), [socket.io-reqev](https://github.com/takeshy/socket.io-reqev), [svg_canvas_chart](https://github.com/takeshy/svg_canvas_chart)
 
