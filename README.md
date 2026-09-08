@@ -40,13 +40,28 @@ Everything I've learned from the Obsidian plugins, rebuilt as a standalone app �
 </td>
 <td width="50%" valign="top">
 
-#### 📊 [obsidian-dashboard-hub](https://github.com/takeshy/obsidian-dashboard-hub)
+#### 🌐 [GemiHub](https://github.com/takeshy/gemihub)
 
-![Personal favorite](https://img.shields.io/badge/❤️_personal_favorite-D64545?style=flat-square)
+![Web app](https://img.shields.io/badge/☁️_web_app-4285F4?style=flat-square)
 
-One responsive workspace for **everything in your vault**: Obsidian Bases, Kanban boards, calendars, timelines, web pages, and password-protected secrets.
+Read, annotate, and ask Gemini about documents in **your own Google Drive** — with no external database and no lock-in.
 
-Linked memos work across notes, PDFs and EPUBs — so you can plan projects, annotate documents and track events without ever leaving Obsidian.
+PDFs, EPUBs, Markdown notes, highlights, memos, dashboards, chat, and workflows all live together in a self-hostable, offline-first web app.
+
+→ [Try it at gemihub.net](https://gemihub.net)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### 🎙️ [speech-popup](https://github.com/takeshy/speech-popup)
+
+![Voice anywhere](https://img.shields.io/badge/🎤_voice_anywhere-2E8B57?style=flat-square)
+
+A resident **voice dictation popup** for Windows, Linux, and macOS. Press a hotkey, speak, edit the transcript, then press Enter to paste it into the app you were using.
+
+Use browser speech recognition or bring your own OpenAI-compatible, whisper.cpp, Microsoft MAI Transcribe, Gemini, or Vertex AI service. The popup supports English and Japanese, voice commands, retryable recordings, and keyboard-first editing.
 
 </td>
 </tr>
