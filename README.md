@@ -129,7 +129,7 @@ SKK directly inside Chrome input fields, plus a clipboard input window for place
 
 #### 💬 [skk-popup](https://github.com/takeshy/skk-popup)
 
-A cross-platform popup for Linux, Windows, and macOS. Call it with a hotkey, compose with SKK, then paste the result into any app. Rebuilt natively for Omarchy as [omarchy-skk-popup](https://github.com/takeshy/omarchy-skk-popup).
+A cross-platform popup for Linux, Windows, and macOS, including Omarchy. Call it with a hotkey, compose with SKK, then paste the result into any app.
 
 </td>
 <td width="33%" valign="top">
@@ -141,8 +141,6 @@ Pure Lua SKK for Neovim insert and command-line modes, with no Node.js or Denops
 </td>
 </tr>
 </table>
-
-- 🐧 **[omarchy-skk-popup](https://github.com/takeshy/omarchy-skk-popup)** — skk-popup reborn as an [Omarchy](https://omarchy.org) shell plugin. The panel is drawn in QML inside `omarchy-shell`, while the SKK engine runs as a small Go daemon speaking JSON lines over stdin/stdout. One Hyprland hotkey, an 「あ」 button on the bar, and the same dictionaries, user dictionary, and history files as skk-popup.
 
 ---
 
