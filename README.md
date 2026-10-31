@@ -21,6 +21,51 @@
 
 ---
 
+### 🧩 Spotlight: kakeratta
+
+<p align="center">
+  <a href="https://github.com/takeshy/kakeratta"><img src="https://raw.githubusercontent.com/takeshy/kakeratta/main/frontend/public/logo.svg" alt="kakeratta" width="304" height="80"></a>
+</p>
+
+<p align="center">
+  <b>You cannot search for what you forgot exists.</b><br>
+  A personal AI timeline that brings it back to you.
+</p>
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+**Ka-ke-ratta** — the name for tossing in a *kakera*, a fragment.
+Toss in fragments of your day as text, photos, URLs or speech. **Personas**, one for each person or interest you care about, remember what matters to them and speak up when it matters.
+
+- 🧠 **A separate memory for each persona** — no interest gets diluted by the others; people are reached by name and keyword matching, not an LLM's guess.
+- 🤫 **Silence is the default** — a persona replies only when it has something worth saying. A quiet timeline means the app is working.
+- 🔍 **Memory you can trace and review** — facts link back to your posts; records come back asking *keep, postpone or forget?*
+- 🌱 **Personas that grow with you** — when a new topic builds up, a persona suggests spinning it off into its own.
+- 🔌 **Plays well with others** — Alexa voice posts, Google Calendar / Gmail via a self-hosted bridge, external agents and tools over MCP, Bluesky sharing, push reminders, offline posting.
+
+Built with Go and React on Google Cloud (Firestore, Pub/Sub, Cloud Tasks).
+
+<p>
+  <a href="https://kakeratta.net/lp/?lang=en"><img alt="Try it" src="https://img.shields.io/badge/▶_Try_it-kakeratta.net-FF7A59?style=for-the-badge"></a>
+  <a href="https://youtu.be/7BB3MnY8uBI"><img alt="Demo" src="https://img.shields.io/badge/Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+  <a href="https://devpost.com/software/kakeratta"><img alt="Devpost" src="https://img.shields.io/badge/Devpost-003E54?style=for-the-badge&logo=devpost&logoColor=white"></a>
+</p>
+
+→ [Repository](https://github.com/takeshy/kakeratta) · [Manual](https://kakeratta.net/manual/?lang=en) · [Design notes](https://github.com/takeshy/kakeratta/blob/main/docs/design/technical.md) · [Lessons from what the AI got wrong](https://github.com/takeshy/kakeratta/blob/main/docs/design/ai-lessons.md)
+
+</td>
+<td width="40%" valign="top" align="center">
+
+<a href="https://youtu.be/7BB3MnY8uBI"><img src="https://raw.githubusercontent.com/takeshy/kakeratta/main/docs/captures/en/timeline.png" alt="Fragments and persona replies on the kakeratta timeline" width="300"></a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🌟 What I'm building right now
 
 <table>
@@ -112,6 +157,47 @@ Fully private, no cloud required. Vault tools, MCP servers, RAG, encryption, and
 
 ---
 
+### 🔌 MCP servers
+
+Small, single-binary servers that give AI agents safe access to real tools and data — the same ones my own apps run on.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛡️ [mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper)
+
+A security-focused MCP gateway that lets AI assistants **run shell commands under fine-grained policy** — argument validation, env filtering, bubblewrap/WASM sandboxing. Bridge mode exposes any stdio MCP server over HTTP with auth, rate limiting and OAuth 2.0 (PKCE).
+
+</td>
+<td width="50%" valign="top">
+
+#### 🗺️ [geo-mcp](https://github.com/takeshy/geo-mcp)
+
+**Place search and reverse geocoding** from self-hosted OpenStreetMap and GeoNames data — no external API calls at runtime. Powers kakeratta's location features in production on a shared 4 GiB VM.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📚 [ragujuary](https://github.com/takeshy/ragujuary)
+
+CLI + MCP server for **RAG on Google Gemini** — managed Gemini File Search stores, or local multimodal embeddings (text, images, PDF, audio, video) with incremental indexing and Ollama / LM Studio support.
+
+</td>
+<td width="50%" valign="top">
+
+#### 📅 [mcp-gcal](https://github.com/takeshy/mcp-gcal)
+
+A standalone MCP server for **Google Calendar and Gmail** — stdio for a single user, or HTTP with per-user Google OAuth.
+
+</td>
+</tr>
+</table>
+
+---
+
 ### ⌨️ SKK, wherever I type
 
 I also build a family of lightweight **SKK Japanese input tools** around the same familiar key bindings and conversion workflow — no system-wide IME required.
@@ -153,7 +239,7 @@ Pure Lua SKK for Neovim insert and command-line modes, with no Node.js or Denops
 
 **GemiHub ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
 
-**Go & infra** — [mcp-gatekeeper](https://github.com/takeshy/mcp-gatekeeper) (sandboxed MCP server with policy control), [ragujuary](https://github.com/takeshy/ragujuary) (RAG on Gemini File Search), [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit) (stdlib-only PDF page splitter — xref streams, object streams, RC4/AES-encrypted PDFs), [mcp-gcal](https://github.com/takeshy/mcp-gcal), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
+**Go & infra** — [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit) (stdlib-only PDF page splitter — xref streams, object streams, RC4/AES-encrypted PDFs), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
 
 **Editor & web** — [nvim-gemini-helper](https://github.com/takeshy/nvim-gemini-helper) (Gemini + RAG in Neovim), [http-file.nvim](https://github.com/takeshy/http-file.nvim), [wysimark-lite](https://github.com/takeshy/wysimark-lite), [mdwys](https://github.com/takeshy/mdwys), [socket.io-reqev](https://github.com/takeshy/socket.io-reqev), [svg_canvas_chart](https://github.com/takeshy/svg_canvas_chart)
 
