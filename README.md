@@ -72,7 +72,7 @@ Built with Go and React on Google Cloud (Firestore, Pub/Sub, Cloud Tasks).
 <tr>
 <td width="50%" valign="top">
 
-#### 🖥️ [gemihub-desktop](https://github.com/takeshy/gemihub-desktop)
+#### 🖥️ [kiokuflow-desktop](https://github.com/takeshy/kiokuflow-desktop)
 
 ![Main focus](https://img.shields.io/badge/⚡_main_focus-8E75B2?style=flat-square)
 
@@ -85,7 +85,7 @@ Everything I've learned from the Obsidian plugins, rebuilt as a standalone app �
 </td>
 <td width="50%" valign="top">
 
-#### 🌐 [GemiHub](https://github.com/takeshy/gemihub)
+#### 🌐 [kiokuflow](https://github.com/takeshy/kiokuflow)
 
 ![Web app](https://img.shields.io/badge/☁️_web_app-4285F4?style=flat-square)
 
@@ -93,7 +93,7 @@ Read, annotate, and ask Gemini about documents in **your own Google Drive** — 
 
 PDFs, EPUBs, Markdown notes, highlights, memos, dashboards, chat, and workflows all live together in a self-hostable, offline-first web app.
 
-→ [Try it at gemihub.net](https://gemihub.net)
+→ [Try it at kiokuflow.net](https://kiokuflow.net)
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ I also build a family of lightweight **SKK Japanese input tools** around the sam
 
 #### 🌐 [chrome-skk-lite](https://github.com/takeshy/chrome-skk-lite)
 
-SKK directly inside Chrome input fields, plus a clipboard input window for places extensions cannot reach. The same engine is also available as a GemiHub Desktop plugin.
+SKK directly inside Chrome input fields, plus a clipboard input window for places extensions cannot reach. The same engine is also available as a kiokuflow-desktop plugin.
 
 </td>
 <td width="33%" valign="top">
@@ -237,7 +237,7 @@ Pure Lua SKK for Neovim insert and command-line modes, with no Node.js or Denops
 
 **Obsidian / knowledge tools** — [obsidian-wysimark](https://github.com/takeshy/obsidian-wysimark) (WYSIWYG Markdown editing that keeps files pure Markdown), [obsidian-work-log](https://github.com/takeshy/obsidian-work-log), [obsidian-gitlog-summary](https://github.com/takeshy/obsidian-gitlog-summary), [obsidian-gdrive-vault](https://github.com/takeshy/obsidian-gdrive-vault), [obsidian-gemihub](https://github.com/takeshy/obsidian-gemihub)
 
-**GemiHub ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
+**kiokuflow ecosystem** — [gemihub-gdrive](https://github.com/takeshy/gemihub-gdrive) (Drive sync), [hub-ronginus](https://github.com/takeshy/hub-ronginus) (AI debate arena), [hub-accounting](https://github.com/takeshy/hub-accounting) (Beancount-compatible bookkeeping), [hub-audio-score](https://github.com/takeshy/hub-audio-score) (audio → sheet music), [llm-hub-skills](https://github.com/takeshy/llm-hub-skills)
 
 **Go & infra** — [logmon-go](https://github.com/takeshy/logmon-go), [minipdfsplit](https://github.com/takeshy/minipdfsplit) (stdlib-only PDF page splitter — xref streams, object streams, RC4/AES-encrypted PDFs), [go-touch](https://github.com/takeshy/go-touch), [touch_and_go](https://github.com/takeshy/touch_and_go)
 
