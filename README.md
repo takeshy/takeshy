@@ -66,6 +66,51 @@ Built with Go and React on Google Cloud (Firestore, Pub/Sub, Cloud Tasks).
 
 ---
 
+### 🏪 Spotlight: gemihub
+
+<p align="center">
+  <a href="https://github.com/takeshy/gemihub"><img src="https://raw.githubusercontent.com/takeshy/gemihub/main/public/assets/gemihub-mark.svg" alt="gemihub" width="80" height="80"></a>
+</p>
+
+<p align="center">
+  <b>Ask AI to build and run your shop's system the same way you would ask a person.</b><br>
+  Your storefront, bookings, payments, and customer records in one place.
+</p>
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+**gemihub** helps independent shops and salons build a booking and shop management system through conversation. Describe your shop by text or voice, circle part of a screen to say *change this*, then preview and approve before publishing.
+
+- 🖍️ **Point, ask, and preview** — AI drafts pages, images, and settings; desktop and mobile screenshots are reviewed before a design proposal reaches you.
+- 📅 **Bookings that fit your shop** — availability accounts for staff, service durations, add-ons, and Google Calendar busy times, with PayPal prepayment and automatic policy-based refunds.
+- ♻️ **Cancel, and recover more** — eligible cancelled appointments go back on sale at a discount. If someone books and pays, the original customer's refund increases.
+- ☎️ **An AI receptionist while you work** — Twilio and Gemini Live answer questions, take cash bookings, and record inquiries. Customer records bring visits, messages, notes, and photos together.
+- 📂 **Keep your shop's data portable** — export business records as JSON or CSV; images, specs, and change history stay in your Google Drive. Japanese and English interfaces are included.
+
+Built with TypeScript, Node.js, and React on Google Cloud (Vertex AI, Firestore, Cloud Storage).
+
+<p>
+  <a href="https://gemihub.net/?lang=en"><img alt="Website" src="https://img.shields.io/badge/Website-gemihub.net-244D40?style=for-the-badge"></a>
+  <a href="https://github.com/takeshy/gemihub"><img alt="Source code" src="https://img.shields.io/badge/Source_code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+→ [Repository](https://github.com/takeshy/gemihub) · [Manual](https://gemihub.net/manual?lang=en) · [Project story](https://github.com/takeshy/gemihub/blob/main/docs/about_this.md) · [System reference](https://github.com/takeshy/gemihub/blob/main/docs/system/index.md)
+
+</td>
+<td width="40%" valign="top" align="center">
+
+<a href="https://github.com/takeshy/gemihub#screenshots"><img src="https://raw.githubusercontent.com/takeshy/gemihub/main/public/manual/en/22-pen.jpg" alt="A shop owner circles a storefront heading and asks AI to make it larger" width="300"></a>
+
+<a href="https://github.com/takeshy/gemihub#screenshots"><img src="https://raw.githubusercontent.com/takeshy/gemihub/main/public/manual/en/07-reservation.jpg" alt="Customer booking screen with services, staff preferences, and available appointment times" width="300"></a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🌟 What I'm building right now
 
 <table>
